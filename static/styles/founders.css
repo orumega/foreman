@@ -1,0 +1,301 @@
+.container {
+    max-width: 1278px;
+    margin: 0px auto;
+}
+
+.founders {
+    background-color: var(--2-b-2-b-2-b, #2B2B2B);
+    min-height: 725px;
+}
+
+.founders__main-content {
+    position: relative;
+}
+
+.founders__title {
+    color: rgba(223, 230, 240, 0.02);
+    font-family: Montserrat;
+    font-size: 192.876px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    position: absolute;
+    top: 36px;
+    right: 0px;
+}
+
+.founders__cards {
+    display: flex;
+}
+
+.founders__anton {
+    position: absolute;
+    top: -142px;
+    left: 320px;
+}
+
+.founders__artem {
+    position: absolute;
+    top: 285px;
+    left: 828px;
+}
+
+.founders__artem-content {
+    display: flex;
+}
+
+.founders__img1 img {
+    width: 100%;
+    height: auto;
+}
+
+.founders__img2 {
+    padding-right: 71px;
+}
+
+.founders__img2 img {
+    width: 100%;
+    height: auto;
+}
+
+.founders__who-im {
+    max-width: 375px;
+    width: auto;
+    margin-top: 38px;
+}
+
+.founders__who-im-artem {
+   margin-top: 77px; 
+}
+
+.founders__name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    text-transform: uppercase;
+}
+
+.founders__job-title {
+    color: var(--fcfcfc, #FCFCFC);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; 
+    padding-top: 12px;
+}
+
+.founders__i-like {
+    color: var(--fcfcfc, #FCFCFC);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 130%; 
+    padding-top: 36px;
+}
+
+@media screen and (max-width: 768px) {
+    .founders {
+        padding-bottom: 250px;
+    }
+
+    .founders__title {
+        top: 380px;
+        padding-left: 20px;
+        font-size: 134.876px;
+    }
+
+    .founders__cards {
+        display: block;
+    }
+
+    .founders__anton {
+        top: -100px;
+        left: 0px;
+        padding-left: 20px;
+        display: flex;
+    }
+
+    .founders__who-im {
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .founders__who-im-anton {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .founders__name {
+        font-size: 20px;
+    }
+
+    .founders__job-title {
+        font-size: 12px;
+    }
+
+    .founders__i-like {
+        font-size: 16px;
+    }
+
+    .founders__who-im-artem {
+        margin-top: 0px;
+    }
+
+    .founders__artem {
+        top: 537px;
+        left: 20px;
+    }
+
+    .founders__img2 {
+        padding-left: 20px;
+    }
+
+    .founders__artem-content {
+        flex-direction: row-reverse;
+    }
+
+    .founders__img2 {
+        padding-right: 20px
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .founders {
+        padding-bottom: 46px;
+    }
+
+    .founders__title {
+        top: 227px;
+    }
+    .founders__anton {
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .founders__img1 {
+        max-width: 204px;
+        width: 100%;
+        position: absolute;
+        top: 45px;
+        left: 15px;
+    }
+
+    .founders__img2 {
+        max-width: 204px;
+        width: 100%;
+    }
+
+    .founders__artem-content {
+        flex-direction: column;
+    }
+
+    .founders__who-im {
+        max-width: 440px;
+        width: 100%;
+    }
+
+    .founders__who-im-anton {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-top: 174px;
+        padding-left: 126px;
+        padding-right: 0px;
+        
+    }
+
+    .founders__name {
+        max-width: 98px;
+        padding-right: 106px;
+        
+    }
+
+    .founders__job-title {
+        padding-right: 78px;
+        max-width: 126px;
+    }
+
+    .founders__i-like {
+        max-width: 292px;
+        padding-top: 60px;
+        padding-right: 0px;
+    }
+
+    .founders__artem {
+        top: 320px;
+        left: 15px;
+    }
+
+    .founders__artem-content {
+        display: block;
+        position: relative;
+    }
+
+    .founders__img2 {
+        position: absolute;
+        top: 0px;
+        right: -117px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .founders__who-im-artem {
+        margin-top: 170px;
+        
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .founders__img2 {
+        right: -103px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .founders__name {
+        padding-right: 82px;
+    }
+
+    .founders__job-title {
+        padding-right: 53px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .founders__img2 {
+        right: -75px;
+    }
+
+    .founders__name {
+        padding-right: 62px;
+    }
+
+    .founders__job-title {
+        padding-right: 33px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .founders__img2 {
+        right: -60px;
+        top: 20px;
+    }
+
+    .founders__name {
+        padding-right: 42px;
+    }
+
+    .founders__job-title {
+        padding-right: 13px;
+    }
+}
+
+
+

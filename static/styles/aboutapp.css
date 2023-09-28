@@ -1,0 +1,350 @@
+.container {
+    max-width: 1278px;
+    margin: 0px auto;
+}
+
+.left-red-border-text {
+    border-style: none none none solid;
+    border-color:  #DC4A46;
+}
+
+.about-app {
+    background-color: #2B2B2B;
+    position: relative;
+}
+
+.about-app__main {
+    padding-top: 90px;
+    display: flex;
+    justify-content: end;
+}
+
+.about-app__content {
+    max-width: 737px;
+    width: auto;
+}
+
+.about-app__phone {
+    position: relative;
+    max-width: 306.529px;
+}
+
+.about-app__img {
+    position: absolute;
+    top: -260px;
+    right: 900px;
+    width: 100%;
+}
+
+.about-app__column-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-app__title {
+    display: flex;
+    justify-content: end;
+}
+
+.about-app__title-text {
+    color: var(--fcfcfc, #FCFCFC);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;   
+}
+
+.about-app__advantages {
+    padding-top: 200px;
+}
+
+.about-app__sub-title {
+    color: var(--fcfcfc, #FCFCFC);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 427px;
+    width: auto;
+    padding-top: 40px;
+    margin-left: 257px;
+}
+
+.about-app__sub-title-item {
+    padding-left: 30px;
+}
+
+.about-app__for-customer {
+    color: var(--fcfcfc, #FCFCFC);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase; 
+    border-style: none none solid none;
+    border-color: #DC4A46;
+    padding-right: 42.5px;
+    border-width: 0.5px;
+}
+
+.about-app__for-performers {
+    color: rgba(252, 252, 252, 0.40);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    border-style: none none solid none;
+    border-color: #FCFCFC; 
+    padding-left: 36.5px;
+    padding-right: 19px;
+    border-width: 0.5px;
+}
+
+.about-app__number {
+    color: #FCFCFC;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    text-transform: uppercase;  
+}
+
+.about-app__text {
+    color: var(--fcfcfc, #FCFCFC);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    margin-right: 180px;
+}
+
+.about-app__column-row {
+    border-style: none none solid none;
+    border-color: #FCFCFC;
+    border-width: 0.5px;
+    display: flex;
+    padding-top: 41px;
+    padding-bottom: 16px;
+}
+
+.about-app__column-box {
+    max-width: 365.5px;
+    width: 100%;
+}
+
+.about-app__app-links {
+    display: flex;
+    gap: 33px;
+    padding-top: 50px;
+    padding-bottom: 167px;
+}
+
+.about-app__apple-link {
+    max-width: 226px;
+    width: 100%;
+    min-height: 65px;
+    height: 100%;
+    border-radius: 200px;
+    border: 1px solid var(--fcfcfc, #FCFCFC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-app__google-link {
+    max-width: 226px;
+    width: 100%;
+    min-height: 65px;
+    height: 100%;
+    border-radius: 200px;
+    border: 1px solid var(--fcfcfc, #FCFCFC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .about-app__title {
+        display: flex;
+        justify-content: left;
+    }
+
+    .about-app__title-text {
+        font-size: 36px;
+    }
+
+    .about-app__sub-title {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+
+    .about-app__sub-title-item {
+        font-size: 14px;
+    }
+
+    .about-app__phone {
+        position: relative;
+        max-height: 800px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .about-app__img {
+        position: relative;
+        top: 0;
+        right: 120px;
+        height: 100%;
+    }
+
+    .about-app__img img {
+        width: 100%;
+    }
+
+    .about-app__advantages {
+        padding-top: 0px;
+    }
+
+    .about-app__for-customer {
+        font-size: 16px;
+        padding-right: 111px;
+    }
+
+    .about-app__for-performers {
+        font-size: 16px;
+        padding-right: 72px;
+    }
+
+    .about-app__text {
+        font-size: 14px;
+    }
+
+    .about-app__app-links {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .about-app__content {
+        max-width: 410px;
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .about-app__phone {
+        max-height: 500px;
+        max-width: 410px;
+    }
+    .about-app__img {
+        top: 25px;
+        right: 60px;
+    }
+
+    .about-app__sub-title-item {
+        padding-left: 20px;
+    }
+
+    .about-app__for-customer {
+        padding-right: 0px;
+    }
+
+    .about-app__for-performers {
+        padding-right: 0px;
+        padding-left: 48px;
+    }
+
+    .about-app__column-row {
+        display: block;
+        max-width: 410px;
+        border-style: none none none none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .about-app__column-box {
+        max-width: 410px;
+        width: 100%;
+        padding-top: 32px;
+    }
+
+    .about-app__column-content {
+        display: flex;
+        
+    }
+
+    .about-app__number {
+        max-width: 60px;
+        width: 100%;
+    }
+
+    .about-app__text {
+        margin-right: 0px;
+    }
+
+    .about-app__app-links {
+        padding-top: 49px;
+        padding-bottom: 115.9px;
+        
+    }
+
+    .about-app__apple-link {
+        max-height: 46px;
+        height: 100%;
+        min-height: 46px;
+    }
+
+    .about-app__google-link {
+        max-height: 46px;
+        height: 100%;
+        min-height: 46px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .about-app__title {
+        padding-left: 15px;
+    }
+
+    .about-app__sub-title {
+        padding-left: 15px;
+    }
+
+    .about-app__phone {
+        padding-left: 15px;
+    }
+
+    .about-app__advantages {
+        padding-left: 15px;
+    }
+
+    .about-app__column-row {
+        padding-left: 15px;
+    }
+
+    .about-app__app-links {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+}
+
+@media screen and (max-width: 395px) {
+
+}
+
+@media screen and (max-width: 380px) {
+
+}
+
+
+

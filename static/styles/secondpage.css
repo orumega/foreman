@@ -1,0 +1,139 @@
+.second-page__grid-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+    padding-top: 10px;
+}
+
+.second-page__title {
+    color: var(--2-b-2-b-2-b, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 87px;
+}
+
+.second-page__card {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.second-page__items img {
+    max-width: 100%;
+}
+
+.second-page__name {
+    color: var(--2-b-2-b-2-b, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    text-transform: uppercase;
+    border-style: none none solid none;
+    border-color: black;
+    padding-top: 47px;
+    padding-bottom: 16px;
+}
+
+.second-page__btn-items {
+    border-style: none none solid none;
+    border-color: black;
+    max-width: 213px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 224px;
+}
+
+.second-page__black-text {
+    color: var(--2-b-2-b-2-b, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 159.9%; 
+    text-transform: uppercase;
+}
+
+.second-page__red-text {
+    color: var(--dc-4-a-46, #DC4A46);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 159.9%;
+    text-transform: uppercase;
+}
+
+.second-page__more-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .second-page__title {
+        color: var(--2-b-2-b-2-b, #2B2B2B);
+        font-family: Montserrat;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        
+    }
+
+    .second-page__grid-box {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .second-page__card {
+        padding-top: 0px;
+    }
+
+    .second-page__name {
+        padding-top: 25px;
+        padding-bottom: 16px;
+        font-size: 16px;
+    }
+
+    .second-page__more-btn {
+        padding-top: 30px;
+    }
+
+    .second-page__btn-items {
+        margin-bottom: 100px;
+    }
+
+    .second-page__black-text {
+        font-size: 16px;
+    }
+
+    .second-page__red-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+}
+
+@media screen and (max-width: 395px) {
+
+}
+
+@media screen and (max-width: 380px) {
+
+}
+

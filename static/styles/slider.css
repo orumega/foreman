@@ -1,0 +1,15 @@
+.slider__items {
+    display: flex;
+    gap: 21px;
+    padding-bottom: 91px;
+}
+
+.img6-flex-box {
+    display: flex;
+    align-items: end;
+}
+
+.slider__items img {
+    width: 100%;
+}
+

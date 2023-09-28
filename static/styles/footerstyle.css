@@ -1,0 +1,280 @@
+.container {
+    max-width: 1278px;
+    margin: 0px auto;
+}
+
+footer {
+    background-color: var(--2-b-2-b-2-b, #2B2B2B);
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    padding-top: 36px;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer__contacts .footer__number-list {
+    list-style: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 185%;
+    padding-left: 24px;
+}
+
+.left-red-border-text1 {
+    border-style: none none none solid;
+    border-color:  #DC4A46;
+}
+
+.left-red-border-text2 {
+    border-style: none none none solid;
+    border-color:  #DC4A46;
+}
+
+.footer__contacts .footer__number-list .footer__mail {
+    text-decoration-line: underline;
+}
+
+.footer__social .footer__inst-list {
+    list-style: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 214%;
+    padding-left: 29px;
+}
+
+.footer__app-link p {
+    color: var(--dc-4-a-46, #DC4A46);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.4%;
+    max-width: 115px;
+    width: auto;
+}
+
+.footer__app-link .footer__app-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 97px;
+    width: auto;
+    padding-top: 19px;
+    padding-left: 7px;
+}
+
+.footer__apple-logo {
+    max-width: 25px;
+    width: auto;
+}
+
+
+.footer__calculator p {
+    color: var(--dc-4-a-46, #DC4A46);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 159.9%;
+    max-width: 241px;
+    width: auto;
+}
+
+.footer__calculator {
+    display: flex;
+    align-items: center;
+    max-width: 264px;
+    width: auto;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid var(--dc-4-a-46, #DC4A46);
+}
+
+.footer__company-name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding-bottom: 49px;
+    padding-top: 37px;
+    margin-left: 340px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer__logo {
+        padding-top: 39px;
+        padding-left: 15px;
+    }
+
+    .footer__contacts {
+        width: 250px;
+    }
+
+    .footer__social {
+        width: 250px;
+        padding-top: 34px;
+    }
+
+    .footer__app-link {
+        padding-top: 39px;
+        padding-bottom: 49px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 160px;
+    }
+
+
+    .footer__app-img {
+        gap: 50px  ;
+    }
+
+    .footer__calculator {
+        
+        margin-right: 130px;
+    }
+
+    .footer__company-name {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 440px) {
+
+    .footer__logo {
+        max-width: 102px;
+        width: 100%;
+    }
+
+    .left-red-border-text1 {
+        margin-top: 38px;
+    }
+
+    .footer__menu .left-red-border-text2 {
+        border-style: none none none none;
+    }
+
+    .footer__social {
+        max-width: 410px;
+        width: 100%;
+        
+    }
+
+    .footer__inst-list {
+        display: flex;
+        padding-left: 15px;
+        gap: 50px;
+    }
+
+    .footer__app-link {
+        
+        padding-left: 25px;
+        display: flex;
+        max-width: 410px;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer__app-link .footer__app-img {
+        padding-top: 0px;
+        padding-left: 0px;
+        max-width: none;
+    }
+
+    .footer__app-link p {
+        text-align: left;
+        
+    }
+
+    .footer__apple-logo {
+        min-width: 109.141px;
+        width: 100%;
+        max-height: 33.984px;
+        height: auto;
+    }
+
+    .footer__google-logo {
+        min-width: 109.141px;
+        width: 100%;
+        max-height: 33.984px;
+        height: auto;
+    }
+    
+
+    .footer__calculator {
+        
+        margin-right: 0px;
+        min-width: 395px;
+        width: 100%;
+        border-radius: 100px;
+        margin-left: 25px;
+    }
+
+    .footer__calculator p {
+        max-width: none;
+        
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .footer__calculator {
+        min-width: 338px;
+        margin-left: 42px;
+    }
+}
+
+
+
+@media screen and (max-width: 395px) {
+    .footer__app-link {
+        max-width: 365px;
+        padding-left: 15px;
+    }
+
+    .footer__inst-list {
+        gap: 25px;
+    }
+
+    .footer__calculator {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .footer__app-link {
+        max-width: 350px;
+        
+    }
+
+    .footer__app-img {
+        gap: 25px  ;
+    }
+}

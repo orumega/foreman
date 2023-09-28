@@ -1,0 +1,217 @@
+.container {
+    max-width: 1278px;
+    margin: 0px auto;
+}
+
+.about-us__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-us__title {
+    color: var(--2-b-2-b-2-b, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-left: 320px;
+    padding-top: 214px;
+    padding-bottom: 311px;
+}
+
+.about-us__hi {
+    color: var(--2-b-2-b-2-b, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    padding-top: 222px;
+    padding-left: 225px;
+}
+
+.left-red-border-text {
+    border-style: none none none solid;
+    border-color:  #DC4A46;
+    max-height: 135px;
+    height: auto;
+}
+
+.about-us__hi-text {
+    max-width: 652px;
+    width: auto;
+    max-height: 142px;
+    height: auto;
+    padding-left: 27px;
+}
+
+.about-us__img {
+    max-width: 695px;
+    padding-bottom: 311px;
+}
+
+.about-us__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us__what-we-do {
+    margin-left: 155px;
+    margin-top: -200px;
+}
+
+.about-us__column-box {
+    border-style: none none solid none;
+    border-color: black;
+    border-width: 0.5px;
+    max-width: 1057px;
+    width: 100%;
+    padding-right: 202px;
+}
+
+.about-us__column {
+    padding-left: 0;
+    max-width: 737px;
+    width: auto;
+}
+
+.about-us__column-content {
+    display: flex;
+    max-width: 737px;
+    width: auto;
+    justify-content: space-between;
+    padding-top: 51px;
+}
+
+.about-us__column-title {
+    color: var(--2-b-2-b-2-b, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; 
+    text-transform: uppercase;
+    max-width: 242px;
+}
+
+.about-us__column-text {
+    color: var(--2-b-2-b-2-b, #2B2B2B);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    max-width: 410px;
+}
+
+.community__advantages-black-arrow-left {
+    text-align: end;
+}
+
+@media screen and (max-width: 768px) {
+    .about-us__title {
+        padding-left: 37.5px;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        font-size: 36px;
+    }
+
+    .about-us__hi {
+        padding-top: 20px;
+        padding-left: 37.5px;
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .about-us__img {
+        padding-top: 20px;
+        padding-left: 37.5px;
+        padding-bottom: 0px;
+    }
+
+    .about-us__what-we-do {
+        margin-top: 0px;
+        margin-left: 37.5px;
+        padding-right: 0px;
+        margin-bottom: 200px;
+    }
+
+    .about-us__column-box {
+        max-width: 768px;
+        width: 100%;
+        padding-right: 19px;
+    }
+
+    .about-us__column-title {
+        font-size: 16px;
+    }
+
+    .about-us__column-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .about-us__column-box {
+        padding-right: 0px;
+    }
+
+    .about-us__title {
+        padding-top: 146px;
+        padding-left: 15px;
+    }
+
+    .about-us__hi {
+        padding-left: 15px;
+        padding-bottom: 0px;
+    }
+
+    .about-us__hi-text {
+        padding-left: 13px;
+    }
+
+    .about-us__img {
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 32px;
+        max-height: 191px;
+    }
+
+    .about-us__what-we-do {
+        margin-left: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        margin-bottom: 119px;
+    }
+
+    .about-us__column-content {
+        display: block;
+        padding-top: 33px;
+    }
+
+    .about-us__column-title {
+        max-width: 278px;
+        padding-bottom: 8px;
+        
+    }
+
+    .black-arrow-left {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+}
+
+@media screen and (max-width: 395px) {
+
+}
+
+@media screen and (max-width: 380px) {
+
+}
+
